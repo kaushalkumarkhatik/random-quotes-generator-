@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@500&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+.container {
+  width: 90%;
+  height: 28rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 20px;
+  transform: translate(-50%, -50%);
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+
+.btn {
+  background-color: #FFF5EE;
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: black;
+  border-radius: 5px;
+  display: block;
+  outline: none;
+  border: none;
+  letter-spacing: 1px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  font-size: 1rem;
+}
+#quote{
+  font-size: 1.7rem;
+  font-family: 'Baloo Paaji 2', cursive;
+}
+#author {
+  font-size: 1.5rem;
+  text-align: right;
+  font-style: italic;
+  font-family: cursive;
+  font-weight: bold;
+  margin: 0.3rem 0.2rem;
+}
+
+@media screen and (min-width: 700px) {
+  .container {
+    height: 75rem;
+    padding: 3rem;
+  }
+  #quote{
+    font-size: 4.5rem;
+  }
+  #author{
+    font-size: 3.5rem;
+  }
+  .btn{
+    margin: 5rem;
+    padding: 2rem 4rem;
+    font-size: 2rem;
+  }
+}
+
